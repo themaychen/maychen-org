@@ -1,6 +1,6 @@
-# Old copy of the page with the previous price bands. Send anyone who
-# lands on it to the live page. force = true makes this work even though
-# the file still exists in the repo.
+# Stray copies of the page left behind by earlier uploads (index_2 has the
+# previous price bands). Send anyone who lands on them to the live page.
+# force = true makes this work even though the files still exist in the repo.
 [[redirects]]
   from = "/index_2.html"
   to = "/"
@@ -9,6 +9,18 @@
 
 [[redirects]]
   from = "/index_2"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index_1.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index_1"
   to = "/"
   status = 301
   force = true
